@@ -1,0 +1,85 @@
+/* general */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: monospace;
+    margin-right: 30px;
+}
+
+
+/* calculator */
+
+.display {
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: block;
+    width: 280px;
+    height: 40px;
+    text-align: right;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.container {
+    border: 1px solid black;
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    background-color: #000;
+    box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
+}
+
+
+/* buttons */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: #e1e1e1;
+    color: black;
+    margin: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #0bdb43;
+    color: #000;
+}
+
+.equal {
+    background-color: rgb(236, 72, 12);
+}
+
+.clear {
+    background-color: red;
+}
